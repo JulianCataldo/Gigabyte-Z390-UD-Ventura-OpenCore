@@ -1,6 +1,6 @@
-# Gigabyte Z390 UD Ventura install — OpenCore
+# Gigabyte Z390 UD Ventura install — OpenCore 0.9.3
 
-Tested with Monterey installation, then updated to Ventura without a problem.
+Tested with Monterey installation, then updated to Ventura (13.2.1 - 22D68) without a problem.
 
 You don't really need to know all the hardware list here, beside the MB model and the GPU maybe (using a 5XX serie).
 
@@ -17,13 +17,26 @@ Links to other successful installation
 - …
 
 I don't remember where I found this tailored base EFI for this Motherboard, which I customized further.  
-I will put this here as soon as I found that info again (thanks buddy, I owe you so much).
+I will put this here as soon as I found that info again (thanks buddy, I owe you so much for the SSDT's etc.).
 
 ## Notes
 
 Several improvements over an older Catalina + Clover installation on the same hardware.  
 UI is much much smoother (AMD 5xx serie), less hiccups with multiple monitors when they get out of sleep, etc. Can't list all the small improvements brought by switching to OpenCore (I post-poned this for so long, but it was worth it).
 
+Geekbench **5** score should be in the 1300-1400 | 8000-8500 ballpark.  
+43500-45500 (OpenCL) | 51000-53000 (Metal)  
+
+Geekbench **6** score should be in the 1600-1800 | 7900-8200 ballpark.  
+50800-51500 (OpenCL) | 61000-63000 (Metal)  
+
+This is for an heavily water-cooled 9900K, uncastrated by a shady BIOS ([95W vs 125W TDP](https://www.comptoir-hardware.com/actus/processeurs/37749-tdp-et-magouilles-chez-intel-test-du-9900k-sagement-a-ses-95w.html)).  
+NO THROTTLING WHATSOEVER 🔥.  
+AFAIK, all cores are kept at full turbo at all time (4.7~5GHz IIRC).
+
+GPU is an AMD RX 590.
+
+## Acknowledgements
 
 THANKS TO ALL PEOPLE INVOLVED IN MAKING X86 MACOS ALIVE AND KICKING (Dortania, previous pionneers like Clover and Chameleon, and all the communities scattered on the interweb…), as well as [allowing macOS in QEMU](https://github.com/kholia/OSX-KVM), or upgrading older macs to "unsupported" newer systems.
 
