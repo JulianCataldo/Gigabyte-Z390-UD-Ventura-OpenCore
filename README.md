@@ -2,7 +2,7 @@
 
 Tested with Monterey installation, then updated to Ventura (13.2.1 - 22D68) without a problem.
 
-You don't really need to know all the hardware list here, beside the MB model and the GPU maybe (using a 5XX serie).
+You don't really need to know all the hardware list here, beside the MB model and the GPU maybe (using an AMD RX 5xx series).
 
 I don't use internal MB features that I can replace with "real", dedicated ones when possible (e.g Sound card, WIFI…), so you're on your own here, except for USB.
 
